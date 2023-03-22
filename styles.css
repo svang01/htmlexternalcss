@@ -1,0 +1,46 @@
+  ul, li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+  }
+  header, nav {
+    display: flex;
+    color: white;
+  }
+  header {
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+  }
+  h2 {
+    margin: 0;
+    padding: 0px 10px;
+    align-items: flex-start;
+    background-color: green;
+    font-size: 45pt;
+  }
+  nav {
+    width: 70%;
+  }
+  nav ul {
+    display: flex;
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    justify-content: space-around;
+  }
+  nav ul li img {
+    width: 25px;
+  }
+  #login {
+    align-items: flex-end;
+    padding-right: 15px;
+    width: 180px;
+  }
+  #login ul {
+    padding: 0;
+  }
+  #login img {
+    width: 40px;
+  }
